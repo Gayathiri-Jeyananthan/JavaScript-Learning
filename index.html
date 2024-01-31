@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- 01 -->
+<!-- JavaScript can hide HTML elements. -->
+<p id = "second">Hello Gayu</p>
+<button id = "button1" onclick="document.getElementById('second').style.display='none'">Click Here to hide the above content</button>
+<!--When you click the button it will Hide the Hello Gayu, Other wise content is showing-->
+<br> <br>
+
+<!-- 02 -->
+<!-- JavaScript can show hidden HTML elements. -->
+<p id="first" style="display:none">Hello world</p> 
+<!--When you click the button it will show the Hello world, Other wise content is in hide mood-->
+<button id = "button2" onclick="document.getElementById('first').style.display='block' "> Click Here to show the hidden content </button>
+
+<!-- 03 -->
+<!-- JavaScr<br>ipt can change the HTML content. -->
+<p id="third">Paragraph in normal mood</p>
+<button id = "button3" onclick='myFunc()'>Click here to change the content</button>
+<!--In here I called the function, when button is click the para content will change-->
+<!--function is in external script file-->
+
+<!-- 04 -->
+<!-- Javascript disply possibilities -->
+<!-- 01st is innerHTML -->
+<p id="fourth"></p>
+<button id="button4" onclick="document.getElementById('fourth').innerHTML = 'innerHTML Example'">innerHTML Example</button>
+<br> <br>
+
+<!-- 05 -->
+<!-- 2nd is document.write() -->
+<script>
+document.write("This is Document write() example, we have to write it within the script tag")
+</script>
+<!-- Using document.write() after an HTML document is loaded, will delete all existing HTML. -->
+<!-- The document.write() method should only be used for testing. -->
+
+<!-- 06 -->
+<!-- 03rd window.alert() -->
+<!-- <script>
+    window.alert('Hello Gayathiri :)');
+</script> -->
+<br> <br>
+
+<!-- 07 -->
+<!-- 04th is window.print() -->
+<!-- We use window.print() method in the browser to print the content of the current window. -->
+<button onclick="window.print()">Print</button>
+
+
+
+
+
+
+<!--To join the external script file-->
+<script src="Day 1.js"></script>
+<script src="variables.js"></script>
+
+
+
+</body>
+</html>
