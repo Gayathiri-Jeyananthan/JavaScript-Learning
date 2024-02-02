@@ -35,7 +35,6 @@ console.log(a+b);
 // let x;
 //  x = 9;
 //  console.log(x);   //It cause the syntax error because we already use the x variable.
-//so we can't redeclare in let keywords
 
 let z;
  z = 9;
@@ -44,4 +43,10 @@ let z;
  z=5;
  console.log(z);
 
- //but we can reassign the values here.
+/*Always use const if the value should not be changed
+
+  Always use const if the type should not be changed (Arrays and Objects)
+
+  Only use let if you can't use const
+
+  Only use var if you MUST support old browsers.*/
