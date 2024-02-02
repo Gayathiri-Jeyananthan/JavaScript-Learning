@@ -75,13 +75,19 @@ You cannot re-declare a variable declared with let or const.*/
 
 //Point No 05
 let one = 5 + 2 + 3;
-let two = "5" + 2 + 3;
+let two = "5" + 2 + 3;//If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+let three = 2 + 3 + "5";
 
-console.log(one);
-console.log(two);
-//If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+console.log(one);//10
+console.log(two);//523
+console.log(three);//55
 
+//Point No 06
+//Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names
 
-
-
-
+let $ = "Hello World";
+console.log($);//Hello World
+let $$$ = 2;
+let $myMoney = 5;
+let total =  $$$ + $myMoney;
+console.log(total); //7
