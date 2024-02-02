@@ -73,5 +73,15 @@ var CarName;
 let toyName;
 You cannot re-declare a variable declared with let or const.*/
 
+//Point No 05
+let one = 5 + 2 + 3;
+let two = "5" + 2 + 3;
+
+console.log(one);
+console.log(two);
+//If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+
+
+
 
 
