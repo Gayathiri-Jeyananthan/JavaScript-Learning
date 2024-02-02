@@ -91,3 +91,11 @@ let $$$ = 2;
 let $myMoney = 5;
 let total =  $$$ + $myMoney;
 console.log(total); //7
+
+//Since JavaScript treats underscore as a letter, identifiers containing _ are valid variable names:
+let _lastName = "Johnson";
+console.log(_lastName);// Johnson
+let _x = 2;
+let _100 = 5;
+let _total = _x + _100;
+console.log(_total);//7
