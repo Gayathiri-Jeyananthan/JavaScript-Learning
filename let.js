@@ -37,10 +37,12 @@ var x = 2;   // Allowed
 let x = 3;   // Not allowed
 
 //02
+/*
 {
-  let z = 2;   // Allowed
-  let z = 3;   // Not allowed
+  let re = 2;   // Allowed
+  let re = 3;   // Not allowed
   }
+*/
 
 //03
 {
