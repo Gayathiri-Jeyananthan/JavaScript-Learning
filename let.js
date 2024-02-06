@@ -24,6 +24,12 @@ let x =3;
 console.log(x); //It cause syntax error. because we can't redeclare 
 //(SyntaxError: Identifier 'x' has already been declared )
 
+// let and const have block scope.
+
+// let and const can not be redeclared.
+
+// let and const must be declared before use.
+
 
 
 
