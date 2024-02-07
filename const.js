@@ -12,10 +12,23 @@ PI = 3.14;      // This will give an error
 
 const x = 3; //This is correct
 
-const y; ////Must be Assigned
-y=5;//This will give an error
+// const y;  //Must be Assigned
+// y=5;    //This will give an error
 
 
+/*
+The keyword const is a little misleading.
 
+It does not define a constant value. It defines a constant reference to a value.
 
+Because of this you can NOT:
+
+Reassign a constant value
+Reassign a constant array
+Reassign a constant object
+But you CAN:
+
+Change the elements of constant array
+Change the properties of constant object
+*/
 
