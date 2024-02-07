@@ -10,12 +10,13 @@ PI = 3.14;      // This will give an error
 //Point No 02
 //Must be Assigned
 
-const x = 3; //This is correct
+const variable = 3; //This is correct
 
 // const y;  //Must be Assigned
 // y=5;    //This will give an error
 
 
+//Point No 03
 /*
 The keyword const is a little misleading.
 
@@ -32,3 +33,17 @@ Change the elements of constant array
 Change the properties of constant object
 */
 
+
+//Point No 04
+
+//Constant Arrays
+//You can change the elements of a constant array:
+
+// You can create a constant array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// You can change an element:
+cars[0] = "Toyota";
+
+// You can add an element:
+cars.push("Audi");
