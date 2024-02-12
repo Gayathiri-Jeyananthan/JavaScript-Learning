@@ -77,3 +77,11 @@ let	    Yes    	  No	      Yes	     No	        No
 const	Yes	      No	      No	     No	        No
 
 */
+
+//Re declaring
+/*
+{
+const x = 2;   // Allowed
+const x = 2;   // Not allowed
+}
+*/
