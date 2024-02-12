@@ -55,3 +55,17 @@ const cars = ["Saab", "Volvo", "BMW"];
 cars = ["Toyota", "Volvo", "Audi"];    // ERROR
 
 //Point No 05
+// You can create a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// You can change a property:
+car.color = "red";
+
+// You can add a property:
+car.owner = "Johnson";
+
+//But you can NOT reassign the object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
+
