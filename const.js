@@ -47,3 +47,11 @@ cars[0] = "Toyota";
 
 // You can add an element:
 cars.push("Audi");
+
+//But you can NOT reassign the array:
+
+const cars = ["Saab", "Volvo", "BMW"];
+
+cars = ["Toyota", "Volvo", "Audi"];    // ERROR
+
+//Point No 05
