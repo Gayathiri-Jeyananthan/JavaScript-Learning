@@ -69,6 +69,8 @@ const car = {type:"Fiat", model:"500", color:"white"};
 
 car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
 
+
+//Point No 06
 /*
 
        Scope	Redeclare	Reassign	Hoisted	  Binds this
@@ -84,4 +86,9 @@ const	Yes	      No	      No	     No	        No
 const x = 2;   // Allowed
 const x = 2;   // Not allowed
 }
+*/
+
+/*
+var x = 2;     // Allowed
+const x = 2;   // Not allowed
 */
