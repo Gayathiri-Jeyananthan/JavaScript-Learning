@@ -69,3 +69,11 @@ const car = {type:"Fiat", model:"500", color:"white"};
 
 car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
 
+/*
+
+       Scope	Redeclare	Reassign	Hoisted	  Binds this
+var	    No	      Yes	      Yes	     Yes	    Yes
+let	    Yes    	  No	      Yes	     No	        No
+const	Yes	      No	      No	     No	        No
+
+*/
