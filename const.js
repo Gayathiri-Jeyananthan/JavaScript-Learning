@@ -103,4 +103,3 @@ alert(myName); //This is correct
 
 alert (carName);
 const carName = "Volvo"; //Reference Error
-
