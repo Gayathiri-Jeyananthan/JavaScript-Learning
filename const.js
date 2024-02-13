@@ -92,3 +92,9 @@ const x = 2;   // Not allowed
 var x = 2;     // Allowed
 const x = 2;   // Not allowed
 */
+
+//Point No 07
+//Using a const variable before it is declared will result in a ReferenceError:
+
+alert (carName);
+const carName = "Volvo"; //Reference Error
