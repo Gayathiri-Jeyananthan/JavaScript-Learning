@@ -40,13 +40,13 @@ Change the properties of constant object
 //You can change the elements of a constant array:
 
 // You can create a constant array:
-const cars = ["Saab", "Volvo", "BMW"];
+const carss = ["Saab", "Volvo", "BMW"];
 
 // You can change an element:
-cars[0] = "Toyota";
+carss[0] = "Toyota";
 
 // You can add an element:
-cars.push("Audi");
+carss.push("Audi");
 
 //But you can NOT reassign the array:
 
@@ -65,9 +65,9 @@ car.color = "red";
 car.owner = "Johnson";
 
 //But you can NOT reassign the object:
-const car = {type:"Fiat", model:"500", color:"white"};
+const carsnames = {type:"Fiat", model:"500", color:"white"};
 
-car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
+carsss = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
 
 
 //Point No 06

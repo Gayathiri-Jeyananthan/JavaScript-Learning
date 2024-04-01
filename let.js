@@ -20,8 +20,8 @@
 
 //Point No 02
 //Can not be redeclared
-let x =3;
-console.log(x); //It cause syntax error. because we can't redeclare 
+let xx =3;
+console.log(xx); //It cause syntax error. because we can't redeclare 
 //(SyntaxError: Identifier 'x' has already been declared )
 
 // let and const have block scope.
@@ -34,7 +34,7 @@ console.log(x); //It cause syntax error. because we can't redeclare
 //Re declaring variables
 //01
 var x = 2;   // Allowed
-let x = 3;   // Not allowed
+//let x = 3;   // Not allowed
 
 //02
 /*
@@ -47,13 +47,12 @@ let x = 3;   // Not allowed
 //03
 {
   let x = 2;   // Allowed
-  var x = 3;   // Not allowed
+  //var x = 3;   // Not allowed
   }
 
 //04
 //Redeclaring a variable with let, in another block, IS allowed:
 
-let x = 2;   // Allowed
 
 {
 let x = 3;   // Allowed
